@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>SpadarLogin</name>
+    <version>1.1.3</version>
+    <stability>stable</stability>
+    <license uri="http://www.widgento.com/customer-service">Widgento License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Login as Customer</summary>
+    <description>Allows admin users login as customers from admin</description>
+    <notes>! Fixed an admin roles bug (for admins with restricted system configuration access)&#xD;
+&#xD;
+! Fix for Security patch SUPEE-6285</notes>
+    <authors><author><name>Yury Ksenevich</name><user>widgento</user><email>info@widgento.com</email></author></authors>
+    <date>2015-07-23</date>
+    <time>10:03:45</time>
+    <contents><target name="magecommunity"><dir name="Widgento"><dir name="Login"><dir name="Block"><dir name="Adminhtml"><dir name="Log"><file name="Grid.php" hash="e6c02d660c5d85bc43d176a0b3f13a7f"/></dir><file name="Log.php" hash="02f061dc16582c576503d6004c29517a"/></dir></dir><dir name="Helper"><file name="Button.php" hash="763b7a0a490c670859768e9f1193d12d"/><file name="Data.php" hash="324ce4e065ed966f4d2e026661a84ae7"/></dir><dir name="Model"><file name="Login.php" hash="3e16295b91f03a0351e3441184b990ae"/><dir name="Mysql4"><dir name="Login"><file name="Collection.php" hash="d95967b6d4a3c59dca456d84080cee47"/></dir><file name="Login.php" hash="8019955bc3788683255860691b0e0ba1"/></dir><file name="Uninstall.php" hash="74927d5ec28c59bcbec12d0f74d0fa4f"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="6142cdd5a1db097493792a964fdd0fd9"/><file name="LogController.php" hash="15abe058ed80636833cdf439d5d8df9e"/></dir><file name="IndexController.php" hash="9d74807070bac0c21f3497a218f794a6"/></dir><dir name="etc"><file name="config.xml" hash="7f7c5a68c325b2916da55f00b946cdb2"/><file name="manifest.xml" hash="74cc5e8ee747045152dfefb3af900355"/><file name="system.xml" hash="bf4b0b092a2367df867dd6405bc47337"/></dir><dir name="sql"><dir name="widgento_login_setup"><file name="mysql4-install-1.1.0.php" hash="992637cb95c2f520fafafa192ba69e42"/></dir></dir></dir><dir name="Core"><dir name="Block"><dir name="System"><file name="Extensions.php" hash="ab482be33af063639c9290489d75569b"/></dir></dir><dir name="Helper"><file name="Data.php" hash="6d6a526ee7b1bf51605846145ff2ad3d"/></dir><dir name="Model"><file name="Feed.php" hash="c1c8b8380f9f4a7cb82a1ffe3042033d"/><dir name="Uninstall"><file name="Abstract.php" hash="dbedee579c05ed5689ed065332acef96"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="RewriteController.php" hash="ad679cfa0aa85f6c28dca744db9f19db"/></dir></dir><dir name="etc"><file name="config.xml" hash="613c759b0df14087510ab9ec1003cf84"/><file name="manifest.xml" hash="09f3cfe1a4dde457b8526bdbeaaa3d1c"/><file name="system.xml" hash="4440a2c9366401c83525a1981d4d99b8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Widgento_Login.xml" hash="e36ef78c1eeaf06d74009e626be4d187"/><file name="Widgento_Core.xml" hash="95bd1574e037708a9804e4e80467f816"/><file name="Spadar_Login.xml" hash="703644172c90644671fb8060ee799818"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="widgentologin.xml" hash="db5e80bce809c612ec466365419f77d9"/></dir></dir></dir></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="Widgento_Login.csv" hash="2b5e63cebdaca03c458737d7ee2c7a1a"/></dir><dir name="en_US"><file name="Widgento_Login.csv" hash="58e5ec2b05b5b446c636c86fae8be482"/></dir></dir></target><target name="mage"><dir name="shell"><file name="widgento_uninstall.php" hash="ff9d058533dc474032a50a78b6ef35dc"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>8.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.4</min><max/></package></required></dependencies>
+</package>
